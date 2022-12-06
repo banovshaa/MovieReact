@@ -1,0 +1,30 @@
+.inpBut{
+    display: flex;
+    background-color: #fff;
+}
+
+label{
+    display: block;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.input {
+    margin: 5px 10px 0 0;
+    width: 300px;
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid rgba(0,8,7,.5);
+}
+
+.button {
+    padding: 5px 10px;
+    border: none;
+    transition: all .2s linear;
+    color: #fff;
+    background-color: #000807;
+}
+.button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
